@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    password: bookstore
+    username: bookstore
+    url: jdbc:mysql://localhost:3306/bookstore
+
+logging:
+  level:
+    root: warn
+    '[com.app.bookstore]': debug
